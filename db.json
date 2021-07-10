@@ -250,8 +250,24 @@
       "label": "عملیات پایه",
       "icon": "pi pi-fw pi-pencil",
       "items": [
-        {"label": "حذف خودرو"},
-        {"label": "به روز رسانی خودرو "}
+        {
+          "label": "حذف خودرو"
+        },
+        {
+          "label": "به روز رسانی خودرو "
+        }
+      ]
+    },
+    {
+      "label": "عملیات لجستیک",
+      "icon": "pi pi-fw pi-pencil",
+      "items": [
+        {
+          "label": "حذف خودرو"
+        },
+        {
+          "label": "به روز رسانی خودرو "
+        }
       ]
     },
     {
@@ -275,13 +291,38 @@
           "label": "سایر خدمات",
           "icon": "pi pi-fw pi-tags",
           "items": [
-            {"label": "گارانتی کالا"}
+            {
+              "label": "گارانتی کالا"
+            }
           ]
         }
       ]
+    },
+    {
+      "label": "عملیات تجارت خارجی ",
+      "icon": "pi pi-fw pi-cog",
+      "items": [
+        {
+          "label": "ویرایش",
+          "icon": "pi pi-fw pi-pencil"
+        },
+        {
+          "label": "سایر خدمات",
+          "icon": "pi pi-fw pi-tags",
+          "items": [
+            {
+              "label": "گارانتی کالا"
+            }
+          ]
+        }
+      ]
+    }و,
+    {
+      "label": "گزارشات",
+      "icon": "pi pi-pw pi-file"
     }
   ],
-  "homeHeaderImages":[
+  "homeHeaderImages": [
     {
       "previewImageSrc": "./assets/images/header-desktop-1.jpg",
       "thumbnailImageSrc": "./assets/images/header-desktop-1.jpg",
@@ -312,32 +353,72 @@
       "alt": "Description for Image 5",
       "title": "Title 5"
     }
-    ],
+  ],
   "footerMenu": [
-    {"title": "دفترچه خریداران","child": [
-      {"title": "ثبت سفارش" },
-      {"title": "روش های پرداخت" },
-      {"title": "شرایط ارسال" },
-      {"title": "پیگیری سفارش" },
-      {"title": "ضمانت و بازگشت کالا" }
-    ]},
-    {"title": "دفترچه فروشندگان","child": [
-      {"title": "راهنمای فروشندگان" },
-      {"title": "میخواهم فروشنده شوم" }
-    ]},
-    {"title": "دانستنی ها","child": [
-      {"title": "حریم شخصی شما" },
-      {"title": "قوانین و مقررات ما "},
-      {"title": "فرصت های شغلی "}
-    ]},
-    {"title": "تیمچه!","child": [
-      {"title": "درباره تیمچه" },
-      {"title": "ارتباط با تیمچه "},
-      {"title": "مزیت های تیمچه"},
-      {"title": "داستان تیمچه"},
-      {"title": "شاه نشین"}
-    ]}
+    {
+      "title": "دفترچه خریداران",
+      "child": [
+        {
+          "title": "ثبت سفارش"
+        },
+        {
+          "title": "روش های پرداخت"
+        },
+        {
+          "title": "شرایط ارسال"
+        },
+        {
+          "title": "پیگیری سفارش"
+        },
+        {
+          "title": "ضمانت و بازگشت کالا"
+        }
+      ]
+    },
+    {
+      "title": "دفترچه فروشندگان",
+      "child": [
+        {
+          "title": "راهنمای فروشندگان"
+        },
+        {
+          "title": "میخواهم فروشنده شوم"
+        }
+      ]
+    },
+    {
+      "title": "دانستنی ها",
+      "child": [
+        {
+          "title": "حریم شخصی شما"
+        },
+        {
+          "title": "قوانین و مقررات ما "
+        },
+        {
+          "title": "فرصت های شغلی "
+        }
+      ]
+    },
+    {
+      "title": "تیمچه!",
+      "child": [
+        {
+          "title": "درباره تیمچه"
+        },
+        {
+          "title": "ارتباط با تیمچه "
+        },
+        {
+          "title": "مزیت های تیمچه"
+        },
+        {
+          "title": "داستان تیمچه"
+        },
+        {
+          "title": "شاه نشین"
+        }
+      ]
+    }
   ]
-
-
 }
