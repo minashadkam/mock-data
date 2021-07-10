@@ -243,73 +243,41 @@
   ],
   "PANEL": [
     {
-      "label": "File",
+      "label": "صفحه اصلی",
       "icon": "pi pi-pw pi-file",
-      "items": [{
-        "label": "New",
-        "icon": "pi pi-fw pi-plus",
-        "items": [
-          {"label": "User"},
-          {"label": "Filter"}
-        ]
-      },
-        {"label": "Open"},
-        {"separator": true},
-        {"label": "Quit"}
-      ]
     },
     {
-      "label": "Edit",
+      "label": "عملیات پایه",
       "icon": "pi pi-fw pi-pencil",
       "items": [
-        {"label": "Delete"},
-        {"label": "Refresh"}
+        {"label": "حذف خودرو"},
+        {"label": "به روز رسانی خودرو "}
       ]
     },
     {
-      "label": "Help",
+      "label": "عملیات شناسه کالا",
       "icon": "pi pi-fw pi-question",
       "items": [
         {
-          "label": "Contents"
+          "label": "لیست کالا"
          
-        },
-        {
-          "label": "Search",
-          "icon": "pi pi-pi pi-search",
-          "items": [
-            {
-              "label": "Text",
-              "items": [
-                {
-                  "label": "Workspace"
-                }
-              ]
-            },
-            {
-              "label": "User"
-             
-            }
-          ]}
+        }
       ]
     },
     {
-      "label": "Actions",
+      "label": "عملیات تجارت داخلی ",
       "icon": "pi pi-fw pi-cog",
       "items": [
         {
-          "label": "Edit",
+          "label": "ویرایش",
           "icon": "pi pi-fw pi-pencil",
-          "items": [
-            {"label": "Save"},
-            {"label": "Update"}
-          ]
+        
         },
         {
-          "label": "Other",
+          "label": "سایر خدمات",
           "icon": "pi pi-fw pi-tags",
           "items": [
-            {"label": "Delete"}
+            {"label": "گارانتی کالا"}
           ]
         }
       ]
