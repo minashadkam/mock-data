@@ -235,11 +235,9 @@
       "items": [
         {
           "label": "ویرایش",
-          "icon": "pi pi-fw pi-pencil"
         },
         {
           "label": "سایر خدمات",
-          "icon": "pi pi-fw pi-tags",
           "items": [
             {
               "label": "گارانتی کالا"
@@ -254,11 +252,9 @@
       "items": [
         {
           "label": "ویرایش",
-          "icon": "pi pi-fw pi-pencil"
         },
         {
           "label": "سایر خدمات",
-          "icon": "pi pi-fw pi-tags",
           "items": [
             {
               "label": "گارانتی کالا"
